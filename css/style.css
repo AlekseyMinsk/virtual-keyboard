@@ -1,0 +1,45 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.textarea {
+	width: 100%;
+	resize: none;
+	height: 150px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.keyBoard {
+	width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #b8b4b4; 
+	box-sizing: border-box;
+}
+.boardLine {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.boardButton {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	background-color: #FFF;
+	transition-property: background-color, border-radius;
+    transition-duration: 0.3s;
+}
+.activeBtn {
+	border-radius: 20px;
+	background-color: #CCC;
+}
